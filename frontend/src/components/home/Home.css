@@ -1,0 +1,43 @@
+.home-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+}
+
+.activity-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+}
+
+.pie-chart {
+  height: 500px;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.bar-chart {
+  height: 500px;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-weight: "bold";
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -50px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+  }
+
+  body {
+    background-color: #d5e2eb36;
+}

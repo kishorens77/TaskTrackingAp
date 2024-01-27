@@ -1,0 +1,98 @@
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #009dff;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+body {
+    background-color: #ffffffe3;
+}
+
+.table th {
+    padding: 8px;
+    text-align: left;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    color: #009dff;
+    font-size: large;
+}
+
+.table td {
+    padding: 8px;
+    text-align: left;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.table thead {
+    background-color: #000000c7;
+}
+
+.completed {
+    background-color: #21972397;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pending {
+    background-color: #dfdf1cdc;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.overdue {
+    background-color: #973d2197;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.accordion-body {
+    padding: 8px;
+}
+
+th.title-head {
+    padding-left: 200px;
+}
+
+td.completed {
+    color: #21972397;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+td.overdue {
+    color: #973d2197;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+td.pending {
+    color: #dfdf1c;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.status-button {
+    width: 100px;
+    height: 35px;
+}
+
+.add-task-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 130px;
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+

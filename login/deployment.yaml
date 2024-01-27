@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: login-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: login-app
+  template:
+    metadata:
+      labels:
+        app: login-app
+    spec:
+      containers:
+        - name: login-app
+          image: nikhilesh422/tasktracker-login-app:latest
+          ports:
+            - containerPort: 5002
+          env:
+            - name: DB_CONNECTION_STRING
+              valueFrom:
+                secretKeyRef:
+                  name: login-secrets
+                  key: db-connection-string
+            - name: TOKEN_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: login-secrets
+                  key: token-key
